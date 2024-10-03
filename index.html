@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedra, Papel e Teosura</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Pedra Papel Tesoura</h1>
+    </header>
+
+    <div class="score-board">
+        <div id="user-label" class="badge">user</div>
+        <div id="computer-label" class="badge">comp</div>
+        <span id="user-score">0</span>:<span id="computer-score">0</span>
+    </div>
+
+    <div class="result">
+        <p>Paper covers rock. You win!</p>
+    </div>
+
+    <div class="choices">
+        <div class="choice" id="r">
+            <img src="pedra.png" alt="Pedra">
+        </div>
+        <div class="choice" id="p">
+            <img src="papel.png" alt="Papel">
+        </div>
+        <div class="choice" id="s">
+            <img src="tesoura.png" alt="Tesoura">
+        </div>
+    </div>
+
+    <p id="action-message">Make your move</p>
+</body>
+</html>
