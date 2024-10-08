@@ -26,7 +26,7 @@ function lose(){
 }
 
 function draw(){
-
+    console.log("EMPATEEEE")
 }
 
 function game(userChoice){
