@@ -30,6 +30,7 @@ header > h1{
     padding: 15px 20px;
     font-family: sans-serif;
     position: relative;
+    align-items: center;
 }
 
 .badge{
