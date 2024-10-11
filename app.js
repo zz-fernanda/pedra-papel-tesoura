@@ -41,7 +41,7 @@ function lose(userChoice, computerChoice){
     computerScore_span.innerHTML = computerScore;
     result_p.innerHTML = `${convertToWord(userChoice)}(smallUserWord) perde de ${convertToWord(computerChoice)}(smallCompWord). You lost...`;
     userChoice_div.classList.add('red-glow');
-    setTimeout(() => userChoice_div.classList.remove('green-glow'), 300);
+    setTimeout(() => userChoice_div.classList.remove('red-glow'), 300);
 }
 
 function draw(userChoice, computerChoice){
@@ -50,7 +50,7 @@ function draw(userChoice, computerChoice){
     const userChoice_div = document.getElementById(userChoice);
     result_p.innerHTML = `${convertToWord(userChoice)}(smallUserWord) igual a ${convertToWord(computerChoice)}(smallCompWord). Empatou fi.`;
     userChoice_div.classList.add('gray-glow');
-    setTimeout(() => userChoice_div.classList.remove('green-glow'), 300);
+    setTimeout(() => userChoice_div.classList.remove('gray-glow'), 300);
 }
 
 function game(userChoice){
