@@ -27,6 +27,7 @@ function win(userChoice, computerChoice){
     const smallUserWord = "user".fontsize(3).sub();
     const smallCompWord = "comp".fontsize(3).sub();
     result_p.innerHTML = `${convertToWord(userChoice)}(smallUserWord) beats ${convertToWord(computerChoice)}(smallCompWord). You win!`;
+    document.getElementById(userChoice)
 }
 
 function lose(userChoice, computerChoice){
@@ -38,13 +39,10 @@ function lose(userChoice, computerChoice){
     result_p.innerHTML = `${convertToWord(userChoice)}(smallUserWord) loses to ${convertToWord(computerChoice)}(smallCompWord). You lost...`;
 }
 
-function draw(){
-    userScore++;
-    userScore_span.innerHTML = userScore;
-    computerScore_span.innerHTML = computerScore;
+function draw(userChoice, computerChoice){
     const smallUserWord = "user".fontsize(3).sub();
     const smallCompWord = "comp".fontsize(3).sub();
-    result_p.innerHTML = `${convertToWord(userChoice)}(smallUserWord) beats ${convertToWord(computerChoice)}(smallCompWord). You win!`;
+    result_p.innerHTML = `${convertToWord(userChoice)}(smallUserWord) beats ${convertToWord(computerChoice)}(smallCompWord). Empatou fi.`;
 }
 
 function game(userChoice){
