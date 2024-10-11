@@ -23,7 +23,7 @@ function convertToWord(letter){
 function win(userChoice, computerChoice){
     const smallUserWord = "user".fontsize(3).sub();
     const smallCompWord = "comp".fontsize(3).sub();
-    const userChoice_div = cocument.getElementById(userChoice);
+    const userChoice_div = document.getElementById(userChoice);
     userScore++;
     userScore_span.innerHTML = userScore;
     computerScore_span.innerHTML = computerScore;
@@ -37,7 +37,7 @@ function win(userChoice, computerChoice){
 function lose(userChoice, computerChoice){
     const smallUserWord = "user".fontsize(3).sub();
     const smallCompWord = "comp".fontsize(3).sub();
-    const userChoice_div = cocument.getElementById(userChoice);
+    const userChoice_div = document.getElementById(userChoice);
     computerScore++;
     userScore_span.innerHTML = userScore;
     computerScore_span.innerHTML = computerScore;
