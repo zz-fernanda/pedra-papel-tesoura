@@ -93,7 +93,10 @@ header > h1{
 }
 
 .sim{
-    text-align: center;
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -25px 0 0 -25px; 
 }
 
 .green-glow{
