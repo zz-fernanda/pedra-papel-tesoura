@@ -76,6 +76,7 @@ header > h1{
     display: inline-block;
     transition: all 0.3s ease;
     color: #31b43a;
+    width: 50px
 }
 
 .choice:hover{
