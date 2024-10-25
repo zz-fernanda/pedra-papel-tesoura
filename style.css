@@ -76,7 +76,6 @@ header > h1{
     display: inline-block;
     transition: all 0.3s ease;
     color: #31b43a;
-    width: 50px;
 }
 
 .choice:hover{
@@ -91,6 +90,10 @@ header > h1{
     font-weight: bold;
     font-size: 20px;
     margin-top: 20px;
+}
+
+.imagem{
+    width: 50px;
 }
 
 .green-glow{
